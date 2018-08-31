@@ -5,6 +5,7 @@ h1 {
 }
 
 .portrait {
+    width: 20%;
     height: auto;
     display: block;
     margin-left: auto;
