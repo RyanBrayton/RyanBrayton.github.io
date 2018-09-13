@@ -1,8 +1,60 @@
-h1 {
-    color: black;
-    font-family: Impact; 
-    text-align: center;
-}
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#e6e6e6;
+  }
+
+  .container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+  }
+
+  /* Header **/
+header{
+    background:#35424a;
+    color:#ffffff;
+    padding-top:10px;
+    min-height:70px;
+    border-bottom:#008bc2 3px solid;
+  }
+  
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+  }
+  
+  header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float:left;
+  }
+  
+  header #branding h1{
+    margin:0;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:10px;
+  }
+  
+  header .highlight, header .current a{
+    color:#008bc2;;
+    font-weight:bold;
+  }
+  
+  header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+  }
 
 .portrait {
     width: 20%;
@@ -10,7 +62,7 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 10px 10px 15px lightslategray;
+    box-shadow: 5px 5px 15px lightslategray;
 }
 
 button {
@@ -19,3 +71,11 @@ button {
     margin-left: auto;
     margin-right: auto;
 }
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color: #ffffff;
+    background-color:#008bc2;
+    text-align: center;
+  }
