@@ -1,5 +1,5 @@
 body{
-    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    font: 14px/1.5 Arial, Helvetica, sans-serif;
     padding:0;
     margin:0;
     background-color:#e6e6e6;
@@ -16,7 +16,7 @@ header{
     background:#35424a;
     color:#ffffff;
     padding-top:10px;
-    min-height:70px;
+    min-height:50px;
     border-bottom:#008bc2 3px solid;
   }
   
@@ -39,11 +39,12 @@ header{
   
   header #branding h1{
     margin:0;
+    text-shadow: 1px 1px 30px #446781;
   }
   
   header nav{
     float:right;
-    margin-top:10px;
+    margin-top:0px;
   }
   
   header .highlight, header .current a{
@@ -56,14 +57,29 @@ header{
     font-weight:bold;
   }
 
-.portrait {
-    width: 20%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 5px 5px 15px lightslategray;
+/* Showcase */
+#showcase{
+  min-height: 400px;
+  background-image: url('../Attributes/sun-background.jpg');
+  background-repeat: no-repeat; 
+  background-position: center -400px;
+  background-size: 100%;   
+  text-align: center;
+  color:#008bc2;
+  text-shadow: 1px 1px 20px #070707;
 }
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+
+}
+
+#showcase p{
+  font-size:20px;
+}
+
 
 button {
     display: block;
@@ -73,9 +89,11 @@ button {
 }
 
 footer{
-    padding:20px;
+    padding:7px;
     margin-top:20px;
     color: #ffffff;
-    background-color:#008bc2;
+    background-color:#35424a;
+    border-top: 3px #008bc2 solid;  
+    border-bottom: 3px #008bc2 solid;
     text-align: center;
   }
