@@ -67,7 +67,7 @@ header{
   
 /* Showcase */
 #showcase{
-  min-height: 400px;
+  min-height: 335px;
   background-image: url('../Attributes/sun-background.JPG');
   background-repeat: no-repeat; 
   background-position: center -550px;
@@ -81,12 +81,18 @@ header{
 #showcase h1{
   margin-top:100px;
   font-size:55px;
-  margin-bottom:10px;
+
 
 }
 
 #showcase p{
   font-size:20px;
+}
+
+#showcase-border{
+  padding:30px;
+  color:#ffffff;
+  background:#35424a
 }
 
 /* Sidebar */
@@ -101,7 +107,5 @@ footer{
     margin-top:20px;
     color: #ffffff;
     background-color:#35424a;
-    border-top: 3px #008bc2 solid;  
-    border-bottom: 3px #008bc2 solid;
     text-align: center;
   }
