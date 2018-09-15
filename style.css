@@ -11,6 +11,14 @@ body{
     overflow:hidden;
   }
 
+  .dark{
+    padding:15px;
+    background:#35424a;
+    color:#ffffff;
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+
   /* Header **/
 header{
     background:#35424a;
@@ -56,17 +64,18 @@ header{
     color:#cccccc;
     font-weight:bold;
   }
-
+  
 /* Showcase */
 #showcase{
   min-height: 400px;
   background-image: url('../Attributes/sun-background.jpg');
   background-repeat: no-repeat; 
-  background-position: center -400px;
-  background-size: 100%;   
+  background-position: center -550px;
+  background-size: 100%;  
+
   text-align: center;
-  color:#008bc2;
-  text-shadow: 1px 1px 20px #070707;
+  color:#ffffff;
+  text-shadow: 1px 1px 200px #000000;
 }
 
 #showcase h1{
@@ -80,12 +89,11 @@ header{
   font-size:20px;
 }
 
-
-button {
-    display: block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width:65%;
+  margin-top:10px;
 }
 
 footer{
